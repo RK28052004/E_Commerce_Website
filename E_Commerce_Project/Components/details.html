@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap5/src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./node_modules/bootstrap5/src/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container container-fluid">
+        <div class="row d-flex justify-content-around">
+            <div class="col-12 col-lg-5 mt-5 container">
+                <img src="./images/products/3.jpg" alt="Laptop"  id="product_image">
+            </div>
+            <div class="col-12 col-lg-5 mt-5" id="product_details_description">
+                <h3>Dell Inspiron 3511 Laptop, Intel i3-1115G4, 8GB, 512GB</h3>
+                <p id="product_id">Product # 387874kkfjkf</p>
+                <hr>
+                <div id="product_details_ratings">
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <hr>
+                <p id="product_details_price">$456.00</p>
+                <div class="stockCounter d-inline">
+                    <span class="btn btn-danger minus">-</span>
+                    <input type="number" id="number" class="form-control count" value="1" readOnly/>
+                    <span class="btn btn-primary plus">+</span>
+                </div>
+                <button type="button" id="product_details_cart_btn" class="btn p-4 pt-2 pb-2 text-center">
+                    Add to Cart
+                </button>
+                <hr>
+                <p>Status: <span id="stock_status">In Stock</span></p>
+                <hr>
+                <h4 class="mt-2">
+                    Description:
+                </h4>
+                <p class="mt-3">
+                    Processor: Intel i5-1235U (3.30 GHz up to 4.40 GHz), 10 Cores & 12MB Cache
+                        RAM & Storage: 8GB, 8Gx1, DDR4, 2666MHz Ach & 512GB SSD
+                        Display & Graphics: 15.6" FHD WVA AG 120Hz 250 nits Narrow Border & Integrated Graphics
+                </p>
+                <hr>
+                <p id="product_seller mb-3">Sold by: <strong>Amazon</strong></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JVL Cart</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap5/src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./node_modules/bootstrap5/src/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class="navbar row bg-dark" id="navbar">
+        <div class="col-12 col-md-3">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.png" alt="logo" width="150px">
+            </a>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="input-group">
+                <input type="text" class="form-control" id="search_field" placeholder="Enter Product Name...."/>
+                <a href="#" class="btn" id="search_btn">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+        <div class="col-12 col-md-3 text-center">
+            <span class="text-light text-center" id="cart">Cart</span>
+            <span class="text-dark p-2 pt-1 pb-1" id="cart_count">2</span>
+        </div>
+    </nav>
+    <h1 id="product_heading" class="mt-5">
+        Latest Posts
+    </h1>
+    <section class="container mt-5" id="products">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3 my-3">
+                <div class="card p-3 rounded h-100">
+                    <img class="card-img-top container" src="./images/products/1.jpg" alt="Phone"/>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">
+                            <a href="#" id="product_description">
+                                OPPO F21s Pro 5G (Dawnlight Gold, 8GB RAM, 128 Storage) with No Cost EMI/Additional Exchange Offers
+                            </a>
+                        </h5>
+                        <div class="ratings mt-auto" id="ratings">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        </div>
+                        <p class="card-text" id="amount">$245.67</p>
+                        <a href="#" class="btn" id="view_details">
+                            View Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 my-3">
+                <div class="card p-3 rounded h-100">
+                    <img src="./images/products/2.jpg" class="card-img-top container" alt="Watch">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title">
+                          <a href="#" id="product_description">
+                            WRISTIO HD, Bluetooth Calling Smart Watch, 15 days battery life, Water Resistant
+                          </a>
+                      </h5>
+                      <div class="ratings mt-auto" id="ratings">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                          <span class="" id="reviews">(5 reviews)</span>
+                      </div>
+                      <p class="card-text" id="amount">$150.32</p>
+                      <a href="#" class="btn" id="view_details">
+                          View Details
+                      </a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 my-3">
+                <div class="card p-3 rounded h-100">
+                    <img src="./images/products/3.jpg" class="card-img-top container" alt="Laptop">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title">
+                          <a href="#" id="product_description">
+                            Dell Inspiron 3511 Laptop, Intel i3-1115G4, 8GB, 512GB
+                          </a>
+                      </h5>
+                      <div class="ratings mt-auto" id="ratings">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                          <span class="" id="reviews">(5 reviews)</span>
+                      </div>
+                      <p class="card-text" id="amount">$440.57</p>
+                      <a href="#" class="btn" id="view_details">
+                          View Details
+                      </a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 my-3">
+                <div class="card p-3 rounded h-100">
+                    <img src="./images/products/4.jpg" class="card-img-top container" alt="Neckband">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title">
+                          <a href="#" id="product_description">
+                            PTron Newly Launched Tangent Sports, 60Hrs Playtime
+                          </a>
+                      </h5>
+                      <div class="ratings mt-auto" id="ratings">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                          <span class="" id="reviews">(5 reviews)</span>
+                      </div>
+                      <p class="card-text" id="amount">$15.46</p>
+                      <a href="#" class="btn" id="view_details">
+                          View Details
+                      </a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 my-3">
+                <div class="card p-3 rounded h-100">
+                    <img src="./images/products/5.jpg" class="card-img-top container" alt="Shoe">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title">
+                          <a href="#" id="product_description">
+                            Campus Men's Maxico Running Shoes
+                          </a>
+                      </h5>
+                      <div class="ratings mt-auto" id="ratings">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                          <span class="" id="reviews">(5 reviews)</span>
+                      </div>
+                      <p class="card-text" id="amount">$10.12</p>
+                      <a href="#" class="btn" id="view_details">
+                          View Details
+                      </a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <div class="bg-dark py-1" id="footer">
+        <p class="text-light mt-3">
+            JVLcart - 2023-2024, All Rights Reserved
+        </p>
+    </div>
+    <script type="text/javascript">
+        const stars = 5;
+        const rating = 4.5;
+        const starPercentage = `${(rating / stars) * 100}%`;
+        document.querySelector(`.rating-inner`).style.width = starPercentage;     
+    </script>
+</body>
+</html>
